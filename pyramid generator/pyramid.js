@@ -23,4 +23,4 @@ for (const row of rows) {
 
 console.log(result);
 
-console.log("This code is wrriten by yatndeep dubey")
+console.log("This code is deleted by pratik")
