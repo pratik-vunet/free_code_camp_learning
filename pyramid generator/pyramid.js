@@ -24,3 +24,4 @@ for (const row of rows) {
 console.log(result);
 
 console.log("This code is deleted by pratik")
+console.log("Why you delete this code")
