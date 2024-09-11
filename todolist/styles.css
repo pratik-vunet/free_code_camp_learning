@@ -1,0 +1,63 @@
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 162, 231);
+    
+    
+    
+    
+    
+}
+#addBtn
+{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    
+
+}
+#addBtnCont{
+    padding: 20px;
+}
+body,html{
+    height: 100%;
+    background-color: blueviolet;
+    
+    
+}
+
+#notes,#completedNotes{
+    
+    padding: 20px;
+}
+#note,#completedNote{
+    background-color:azure;
+}
+#complete_status{
+    background-color: green;
+}
+
+#popup{
+    
+        background: rgba(0, 0,0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+   
+}
+
+#form{
+background-color: rgb(118, 165, 236);
+padding: 100px;
+border-radius: 10px;
+font-size: 50px;
+
+}
