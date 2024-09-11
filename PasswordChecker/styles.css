@@ -1,0 +1,39 @@
+#formCont{
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-right: 300px;
+    border-radius: 10px;
+    
+}
+
+body,html{
+    height: 100%;
+    background-color: blueviolet;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+input{
+    font-size: 25px;
+    
+    
+    
+}
+
+label{
+    font-size: 30px;
+}
+
+input:focus {
+    outline: none;
+    border: 5px solid;
+}
+
+
