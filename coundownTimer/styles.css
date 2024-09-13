@@ -1,0 +1,80 @@
+body,
+html {
+    background-color: rgb(255, 195, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+
+}
+
+#controlBtns {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+
+
+
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+#mainHeading {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-bottom: 50px;
+    color: rgb(255, 64, 0)
+}
+
+#selectCont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+
+}
+
+.timer {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 160, 77);
+
+
+}
+
+.buttonClass {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgb(255, 160, 77);
+    border: 0px;
+    cursor: pointer;
+}
+
+.selectClass {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255, 160, 77);
+    border: 0px;
+    cursor: pointer;
+
+}
+
+#mainCont {
+    margin-bottom: 100px;
+}
