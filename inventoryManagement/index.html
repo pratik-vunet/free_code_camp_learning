@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+    <div id="mainHeading">
+    <div>
+        <h1>Inventory Management</h1>
+    </div>
+</div>
+<div >
+    <div id="totalCost">
+        
+    </div>
+</div>
+<div id="averagePrice">
+    <div>
+        
+    </div>
+</div>
+<div id="tableCont">
+    <div>
+      
+        <table style="border: 2px solid rgb(251, 96, 96);">
+            <thead >
+                <tr  >
+                    <th class="heading">Product Name</th>
+                    <th class="heading" id="brandHeading">
+                        <div>
+                            Brand
+                        </div>
+                        <div>
+                            <select name="" onchange="sortByFilter()" id="filterOption" >
+                            <option value="All Brands">All Brands</option>
+                            <option value="Micromax">Micromax</option>
+                            <option value="Samsung">Samsung</option>
+                            <option value="Sony">Sony</option>
+                        </select></div>
+                    </th>
+                    <th class="heading" id="priceHeading">
+                        <div>
+                            Price
+                        </div>
+                        <div id="priceCont">
+                            
+                            <div >
+                                
+                                <button class="sortBtn" id="desc">High to Low</button>
+                            </div>
+                            <div >
+                                <button class="sortBtn" id="asc">Low to High</button>
+                                
+                            </div>
+                        </div>
+                        <div id="priceRange" >
+                            <button onclick="showPopup()">Select Range</button>
+                        </div>
+                        
+                        
+                    </th>
+                    <th class="heading">Quantity</th>
+                </tr>
+                
+                
+            </thead>
+            <tbody id="tableBody">
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+<div id="popup">
+        
+    <form id="form">
+       
+        <div>
+        <div id="inputCont">
+           
+        
+        <input  type="text" id="minimum" required placeholder="Minimum">
+        
+
+        
+        <input  type="text" id="maximum" required placeholder="Maximum">
+        
+        </div>
+        <div id="formBtn">
+            <button  type="button" name="" id="rangeSubmit">Submit</button>
+            
+            <button   type="button" name="" id="closeBtn" onclick="closePopup()">Close</button>
+        </div>
+    </div>
+        
+    </form>
+
+</div>
+</body>
+<script src="script.js"></script>
+</html>
