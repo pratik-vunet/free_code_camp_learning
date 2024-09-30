@@ -1,0 +1,224 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-link {
+  color: black;
+  background-color: rgb(187, 181, 181);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.tab-link:hover {
+  background-color: lightgray;
+}
+
+.light {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+}
+
+#inner-profile-div {
+  background-color: rgb(169, 192, 233);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.dark {
+  background-color: #000000;
+  color: #000000;
+}
+
+body.light {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: 260px 260px 260px 260px 260px;
+  grid-template-rows: 550px 550px 550px 550px 550px;
+  gap: 5%;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(100, 142, 221);
+  color: rgb(4, 47, 128);
+  align-items: center;
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px;
+  margin-top: 30px;
+}
+
+body.dark {
+  background-color: black;
+}
+
+button {
+  width: 90px;
+  height: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgb(172, 201, 255);
+  border: 2px solid rgb(156, 156, 240);
+}
+
+button.light {
+  background-color: rgb(0, 0, 0);
+  color: black;
+}
+
+button.dark {
+  background-color: gray;
+  color: white;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin: 50px;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 20vw;
+  height: 5vh;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 100%;
+  text-align: left;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-heading {
+  white-space: nowrap;
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 6px;
+  text-align: center;
+}
+
+.card-authors {
+  white-space: nowrap;
+  width: 250px;
+  font-size: 25px;
+  font-weight: 800;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 6px;
+  text-align: center;
+}
+
+.card-button {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.image-cont {
+  width: 10vw;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.drawer {
+  position: absolute;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+
+.drawer.open {
+  right: 0;
+  padding: 20px;
+  background-color: #dbdbdb;
+}
+
+.close-button {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.collection-list {
+  display: grid;
+  grid-template-columns: 260px 260px 260px 260px 260px;
+  grid-template-rows: 550px 550px 550px 550px 550px;
+  gap: 5%;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.form-cont {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.book-edit-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: rgb(218, 202, 233);
+  width: fit-content;
+  padding: 10px;
+  margin: 20px 0px 0px 10px;
+  border-radius: 10px;
+}
+
+.edit-book-button {
+  width: fit-content;
+  display: flex;
+  gap: 20px;
+}
